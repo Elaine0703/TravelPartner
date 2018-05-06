@@ -1,3 +1,4 @@
+/*the overall setting of  the page*/
 body { padding-top: 70px; }
 body,html{
         margin:0px;
@@ -5,6 +6,7 @@ body,html{
         font-family: sans-serif;
 }
 
+/*Navigation bar on the top of the screen*/
 .navbar-inverse {
       background: #2c3e50;  /*darkblue:#4dffdb  ; light orange:rgb(220, 70, 0), #dc4600*/
       color: white;
@@ -29,6 +31,7 @@ nav{
 
 .navbar{border-bottom: none;}    
 
+/*Set the jumbotrun apprience*/
 .jumbotron {
       color: #2c3e50;
       height: 10%;
@@ -64,6 +67,7 @@ h3{
 	text-transform: uppercase;        	
 }
 
+/*Set the rolling screen of the posts*/
 #container1 {
     width: 100%;
     height: 300px;
